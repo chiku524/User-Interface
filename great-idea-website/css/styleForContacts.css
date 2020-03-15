@@ -1,0 +1,34 @@
+body {
+    background-color: black;
+    color: darkmagenta;
+}
+
+.contact address h3 {
+    animation-name: an1;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+.contact address {
+    display: inline-block;
+    width: 25%;
+    height: 25%;
+    margin: 30px;
+    padding: 30px;
+    text-align: center;
+    font-weight: 70px;
+}
+
+.contact address:hover {
+    background-color: darkslateblue;
+    color:green;
+}
+
+@keyframes an1 {
+    from{color: darkmagenta;}
+    to{color: orange;}
+}
+
+footer {
+    text-align: center;
+}
