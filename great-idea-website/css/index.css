@@ -71,6 +71,11 @@ body nav.navigation {
   background-color: purple;
   z-index:2;
   width: 100%;
+  margin-top: -50px;
+}
+
+body nav.navigation:hover {
+  background-color: darkslategrey;
 }
 
 body nav.navigation a {
@@ -116,6 +121,19 @@ body nav.navigation img.logo {
 .header button {
   height: 30px;
   width: 150px;
+}
+
+.header button:hover {
+  animation-name: animation2;
+  animation-iteration-count: infinite;
+  animation-duration: 3s;
+}
+
+@keyframes animation2 {
+  from{background-color: white;}
+  to{background-color: blue;}
+  from{color: black;}
+  to{color: red}
 }
 
 .header .rightContentH {
