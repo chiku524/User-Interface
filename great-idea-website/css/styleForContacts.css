@@ -1,6 +1,6 @@
 body {
-    background-color: black;
     color: darkmagenta;
+    background-color: black;
 }
 
 .contact address h3 {
@@ -22,6 +22,7 @@ body {
 .contact address:hover {
     background-color: rgb(8, 0, 59);
     color:green;
+    border: 1px solid red;
 }
 
 @keyframes an1 {
@@ -31,4 +32,41 @@ body {
 
 footer {
     text-align: center;
+}
+
+
+body nav.navigation {
+    text-align: center;
+    position: fixed;
+    background-color: purple;
+    z-index:2;
+    width: 100%;
+    margin-top: -10px;
+}
+
+body nav.navigation:hover {
+    background-color: darkslategrey;
+}
+
+body nav.navigation a {
+    text-decoration: none;
+    padding: 40px;
+    margin: 15px;
+    color: darkgrey;
+}
+
+body nav.navigation a:hover {
+    animation-name: animation1;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animation1 {
+    from{color: darkgrey;}
+    to{color: aqua;}
+}
+
+body nav.navigation img.logo {
+    padding-left: 30px;
+    display: inline-block;
 }
