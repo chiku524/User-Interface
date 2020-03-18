@@ -171,8 +171,10 @@ body nav.navigation img.logo {
   padding-left: 40px;
 }
 
-center .middle-img {
-  width: 96%;
+center .centeredImage {
+  background-image: url('../img/mid-page-accent.jpg');
+  width: 95%;
+  height: 182px;
 }
 
 .bottom-content {
