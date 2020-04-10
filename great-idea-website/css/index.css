@@ -64,3 +64,138 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+html {
+  font-family: 'Baloo Chettan 2';
+}
+
+body nav.navigation {
+  text-align: center;
+  position: fixed;
+  background-color: purple;
+  z-index:2;
+  width: 100%;
+  margin-top: -50px;
+}
+
+body nav.navigation:hover {
+  background-color: darkslategrey;
+}
+
+body nav.navigation a {
+  text-decoration: none;
+  padding: 40px;
+  margin: 15px;
+  color: darkgrey;
+}
+
+body nav.navigation a:hover {
+  animation-name: animation1;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes animation1 {
+  from{color: darkgrey;}
+  to{color: aqua;}
+}
+
+body nav.navigation img.logo {
+  padding-left: 30px;
+  display: inline-block;
+}
+
+.header {
+  height: 500px;
+}
+
+.header .leftContentH {
+  margin: 50px;
+  padding: 100px;
+  width: 30%;
+  height: 400px;
+  text-align: center;
+}
+
+.header h1 {
+  font-size: 70px;
+  text-transform: uppercase;
+}
+
+.header button {
+  height: 30px;
+  width: 150px;
+}
+
+.header button:hover {
+  animation-name: animation2;
+  animation-iteration-count: infinite;
+  animation-duration: 3s;
+}
+
+@keyframes animation2 {
+  from{background-color: white;}
+  to{background-color: blue;}
+  from{color: black;}
+  to{color: red}
+}
+
+.header .rightContentH {
+  width: 60%;
+  text-align: center;
+}
+
+.header img {
+  position: relative;
+  top: -400px;
+  margin-left: 90%;
+}
+
+.top-content {
+  margin: 30px;
+  display: inline-block;
+  border-top: 2px solid black;
+}
+
+.top-content .leftSide {
+  width: 50%;
+  float: left;
+  padding-right: 40px;
+  margin-top: 30px;
+}
+
+.top-content .rightSide {
+  margin-top: 30px;
+  width: 50%;
+  float: right;
+  padding-left: 40px;
+}
+
+center .centeredImage {
+  background-image: url('../img/mid-page-accent.jpg');
+  width: 95%;
+  height: 182px;
+}
+
+.bottom-content {
+  margin: 30px;
+  display: inline-block;
+  width: auto;
+  border-bottom: 2px solid black;
+  height: 160px;
+}
+
+.bottom-content .column {
+  width: 33.33%;
+  float: left;
+  padding-right: 20px;
+}
+
+.contact {
+  margin: 30px;
+}
+
+footer {
+  text-align: center;
+  margin-bottom: 40px;
+}
